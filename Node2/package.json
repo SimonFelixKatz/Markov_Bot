@@ -1,0 +1,24 @@
+{
+  "name": "nmp_demo",
+  "version": "1.0.0",
+  "description": "I am a demo",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "twitter"
+  ],
+  "author": "Simon Katz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "markov-chains-text": "^1.0.0",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
